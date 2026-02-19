@@ -1,0 +1,18 @@
+name: Mirror Read-Only Guard
+
+on:
+  pull_request:
+    paths:
+      - "skills/**"
+      - "manus-skills.json"
+      - "aliases.generated.json"
+
+jobs:
+  block_direct_edits:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Block direct mirror edits
+        run: |
+          echo "This repository is a generated mirror."
+          echo "Edit canonical source in https://github.com/lukeslp/geepers and sync generated outputs."
+          exit 1
