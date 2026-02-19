@@ -13,6 +13,6 @@ jobs:
     steps:
       - name: Block direct mirror edits
         run: |
-          echo "This repository is a generated mirror."
-          echo "Edit canonical source in https://github.com/lukeslp/geepers and sync generated outputs."
+          echo "This repository is a synced mirror."
+          echo "Edit canonical source in https://github.com/lukeslp/geepers and sync mirror outputs."
           exit 1

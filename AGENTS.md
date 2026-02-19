@@ -4,12 +4,12 @@
 This repo packages Manus skill definitions.
 - `skills/<skill-name>/SKILL.md`: core instruction set for each skill.
 - `README.md`: sync and usage workflow.
-- `manus-skills.json`: generated metadata manifest.
+- `manus-skills.json`: metadata manifest.
 
 Keep skills self-contained so each folder can be copied or indexed independently.
 
 ## Build, Test, and Development Commands
-This repository is generated; validate content and metadata after sync.
+This repository is a mirror; validate content and metadata after sync.
 
 ```bash
 # List skill definitions
@@ -30,7 +30,7 @@ python3 -m json.tool manus-skills.json >/dev/null
 
 ## Testing Guidelines
 - Run frontmatter checks for every changed skill.
-- Validate `manus-skills.json` after regeneration.
+- Validate `manus-skills.json` after sync.
 - Test each edited skill manually in Manus tooling.
 
 ## Commit & Pull Request Guidelines
@@ -40,4 +40,4 @@ Use Conventional Commits (`feat:`, `fix:`, `docs:`, `chore:`).
 
 ## Security & Configuration Tips
 - Do not commit API keys or local credentials.
-- Keep generated temp artifacts out of version control.
+- Keep temporary artifacts out of version control.
