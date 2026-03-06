@@ -8,7 +8,6 @@ Supports multiple AI providers with a consistent interface:
 - Mistral
 - Cohere
 - Google (Gemini, Vision)
-- Manus (Agent Profiles, Vision)
 """
 
 from abc import ABC, abstractmethod
