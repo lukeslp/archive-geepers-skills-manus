@@ -1,6 +1,6 @@
 ---
 name: geepers-planner
-description: "Use this agent to read, parse, and prioritize implementation plans, TODO files, suggestions, and code comments. Invoke when starting work on a project with existing plans or when you need to sequence tasks.\\n\\n<example>\\nContext: Project has plans\\nuser: \"What should I work on in this project?\"\\nassistant: \"Let me use geepers_planner to analyze plans and prioritize tasks.\"\\n</example>\\n\\n<example>\\nContext: Many TODOs\\nuser: \"There are dozens of TODOs - where do I start?\"\\nassistant: \"I'll use geepers_planner to prioritize them by impact and effort.\"\\n</example>\\n\\n<example>\\nContext: Starting session\\nassistant: \"Let me run geepers_planner to identify the highest-value work.\"\\n</example>"
+description: "Use this agent to read, parse, and prioritize implementation plans, TODO files, suggestions, and code comments. Invoke when starting work on a project with existing plans or when you need to sequence tasks."
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 name: geepers-builder
-description: "Use this agent to execute implementation tasks from a prioritized queue. The builder writes code, makes changes, and completes work items. Invoke when ready to implement tasks identified by the planner.\\n\\n<example>\\nContext: Queue ready\\nuser: \"Build the next task from the queue\"\\nassistant: \"Let me use geepers_builder to implement the highest priority item.\"\\n</example>\\n\\n<example>\\nContext: Specific task\\nuser: \"Implement the validation feature from the plan\"\\nassistant: \"I'll use geepers_builder to implement validation.\"\\n</example>\\n\\n<example>\\nContext: Batch work\\nassistant: \"Running geepers_builder to process the next 3 tasks.\"\\n</example>"
+description: "Use this agent to execute implementation tasks from a prioritized queue. The builder writes code, makes changes, and completes work items. Invoke when ready to implement tasks identified by the planner."
 ---
 
 

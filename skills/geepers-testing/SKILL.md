@@ -1,6 +1,6 @@
 ---
 name: geepers-testing
-description: "Use this agent for test strategy, test writing, and test coverage analysis. Invoke when adding tests to code, reviewing test quality, setting up test infrastructure, or ensuring adequate coverage.\\n\\n<example>\\nContext: Code without tests\\nuser: \"This module has no tests\"\\nassistant: \"Let me use geepers_testing to design a test strategy and write tests.\"\\n</example>\\n\\n<example>\\nContext: Test coverage\\nuser: \"What's our test coverage?\"\\nassistant: \"I'll use geepers_testing to analyze coverage and identify gaps.\"\\n</example>"
+description: "Use this agent for test strategy, test writing, and test coverage analysis. Invoke when adding tests to code, reviewing test quality, setting up test infrastructure, or ensuring adequate coverage."
 ---
 
 
